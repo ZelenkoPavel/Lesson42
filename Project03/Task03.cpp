@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
 
-	bool n = true;
+	double n = 10;
 
-	bool* pNumber = &n;
+	double* pNumber = &n;
 
 	cout << "size of byte: " << *pNumber << endl;
 	cout << "Before: " << pNumber << endl;
