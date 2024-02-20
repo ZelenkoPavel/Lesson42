@@ -5,11 +5,11 @@ using namespace std;
 
 int main() {
 
-	double n = 10;
+	double n = true;
 
 	double* pNumber = &n;
 
-	cout << "size of byte: " << *pNumber << endl;
+	cout << "size of byte: " << *pNumber << " byte(s)" << endl;
 	cout << "Before: " << pNumber << endl;
 
 	*pNumber++;
