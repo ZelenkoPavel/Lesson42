@@ -23,5 +23,8 @@ int main() {
 		cout << (array + j) << " - " << *(array + j) << endl;
 	}
 
+
+	delete[] array;
+
 	return 0;
 }
